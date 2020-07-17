@@ -1,10 +1,12 @@
 /*global createCanvas, background, rect, fill, triangle, noStroke, width, ellipse, line, stroke, strokeWeight*/
 
 var position;
+var img;
 
 function setup() {
   createCanvas(800, 500);
   background(200, 200, 200);
+  img = loadimage("gamebolly.jpeg");
   position = 0;
 }
 
@@ -16,6 +18,7 @@ function draw() {
   //rect(x top L, y top L, width, height)
   fill(11, 132, 163);
   rect(0, 400, width, 350);
+  image(img 0,0);
 
   stroke(11, 132, 163);
   strokeWeight(5);
