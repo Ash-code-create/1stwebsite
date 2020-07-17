@@ -1,4 +1,4 @@
-/*global createCanvas, background, rect, fill, noStroke, width, ellipse, line, stroke, strokeWeight*/
+/*global createCanvas, background, rect, fill, triangle, noStroke, width, ellipse, line, stroke, strokeWeight*/
 
 var position;
 
@@ -49,17 +49,18 @@ function draw() {
   triangle(120 - position, 40, 50, 50);
   triangle(150 - position, 50, 50, 50);
   triangle(140 - position, 60, 50, 50);
-  
-  stroke(255)
+
+  stroke(255);
 
   ellipse(400 - position, 160, 50, 50);
   ellipse(440 - position, 140, 50, 50);
   ellipse(470 - position, 170, 50, 50);
   ellipse(430 - position, 180, 50, 50);
-  
+
   ellipse(700 - position, 60, 50, 50);
   ellipse(740 - position, 40, 50, 50);
   ellipse(770 - position, 70, 50, 50);
   ellipse(730 - position, 80, 50, 50);
 }
+
 
